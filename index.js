@@ -24,7 +24,6 @@ const Colors = {
     NEUTRAL: 0x808080
 };
 
-// Sửa từ 'ready' thành 'clientReady' để tránh deprecation warning
 client.once('clientReady', () => {
     console.log(`Prefix: ${PREFIXES.join(', ')}`);
     
